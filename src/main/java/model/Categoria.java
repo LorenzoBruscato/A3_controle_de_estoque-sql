@@ -15,6 +15,10 @@ public class Categoria {
         LATA, VIDRO, PLASTICO
     }
 
+    //faltava isso
+    public Categoria() {
+    }
+
     // Construtor
     public Categoria(int idc, String nome, Tamanho tamanho, Embalagem embalagem) {
         this.idc = idc;
@@ -22,7 +26,6 @@ public class Categoria {
         this.tamanho = tamanho;
         this.embalagem = embalagem;
     }
-   
 
     // Getters
     public int getIdc() {
@@ -57,7 +60,6 @@ public class Categoria {
     public void setEmbalagem(Embalagem embalagem) {
         this.embalagem = embalagem;
     }
-    
 
     @Override
     public String toString() {
