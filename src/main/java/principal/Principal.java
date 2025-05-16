@@ -6,7 +6,7 @@ import model.dao.DaoFactory;
 import model.dao.ProdutoDao;
 
 public class Principal {
-//Arualização
+//Atualização
     public static void main(String[] args) {
         try {
             Database.getConnection();
